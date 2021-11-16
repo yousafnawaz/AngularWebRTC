@@ -1,0 +1,19 @@
+<div>
+    <input type="text" [value]="peerId">
+</div>
+<div>
+    <input type="text" [(ngModel)]="connectId">
+</div>
+<div>
+    <input type="button" (click)="connect()" value="connect"/>
+</div>
+<div>
+    <input type="button" (click)="call()" value="call"/>
+</div>
+<div>
+    <video #screenStream></video>
+</div>
+
+
+
+
